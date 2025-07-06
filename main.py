@@ -14,7 +14,7 @@ CHECK_INTERVAL_SECONDS = 60
 
 bot = Bot(token=TELEGRAM_TOKEN)
 
-def get_ohlcv(symbol="SOLUSDT", interval="15m", limit=50):
+def get_ohlcv(symbol="SOLUSDT", interval="1m", limit=50):
     url = f"https://api.binance.com/api/v3/klines"
     params = {"symbol": symbol, "interval": interval, "limit": limit}
     response = requests.get(url, params=params)
