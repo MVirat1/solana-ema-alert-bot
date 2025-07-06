@@ -6,8 +6,8 @@ from telegram import Bot
 from keep_alive import keep_alive
 
 # === CONFIG ===
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_USER_ID = os.getenv("TELEGRAM_USER_ID")
+TELEGRAM_TOKEN = "7577471609:AAEEqZH_zj3a0KugtsuTogSAycfj0FEFyzQ"
+TELEGRAM_USER_ID = "843116130"
 EMA_LENGTH = 40
 THRESHOLD_PERCENT = 0.5  # ±0.5%
 CHECK_INTERVAL_SECONDS = 60
